@@ -36,7 +36,7 @@ header h2 {
 .card-grid { 
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 25px;
+    grid-gap: 45px;
     width: 75%;
     margin: 3% auto;
 }
@@ -46,7 +46,10 @@ header h2 {
     align-items: center;
     height: 100px;
     padding-left: 25px;
-    background-color: #FFCD2C;
+    border-radius: 10px;
+    background: #f9d134;
+    box-shadow:  -8px -8px 33px #e3be2f,
+             8px 8px 33px #ffe439;
     text-decoration: none;
     list-style: none;
 }
