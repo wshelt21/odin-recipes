@@ -32,6 +32,7 @@ h2 {
 
 main{
     width: 75%;
+    height: 100%;
 }
 
 .r-card{
@@ -106,6 +107,30 @@ form input:hover {
     color: #3C77A3;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 75%;
+    margin-top: 50px;
+    background-color: #3C77A3;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 10px 10px 0 0;
+    box-shadow:  -8px -8px 33px #e3be2f,
+             8px 8px 33px #686136;
+             
+}
+
+footer p {
+ text-align: center;
+}
+
+footer a{
+color: #fff;
+}
+
 @media screen and (max-device-width: 760px)  {
 
     .r-details{
@@ -123,14 +148,12 @@ form input:hover {
         object-fit: contain;
        }
     
-
-
     form input {
         display: none;
     }
   }
 
-  @media screen and (max-device-width: 425px)  {
+  @media screen and (max-device-width: 600px)  {
 
     li a {
         font-size: 1.5rem;
@@ -146,7 +169,4 @@ form input:hover {
         width: 75%;
         object-fit: contain;
        }
-
-
-   
   }
