@@ -74,7 +74,6 @@ li a{
 .r-details{
     display: flex;
     opacity: 0;
-    z-index: -10;
 }
 
 .r-details p{
