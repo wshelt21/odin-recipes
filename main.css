@@ -74,6 +74,8 @@ li a{
 .r-details{
     display: flex;
     visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
 }
 
 .r-details p{
@@ -82,6 +84,8 @@ li a{
 
 .r-card:hover .r-details{
     visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 300ms;
 }
 
 form input {
@@ -95,3 +99,54 @@ form input {
     font-weight: 900;
     color: #fff;
 }
+
+form input:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #3C77A3;
+}
+
+@media screen and (max-device-width: 760px)  {
+
+    .r-details{
+        flex-direction: column;
+        max-height: 100%;
+        max-width: 100%;
+        overflow: hidden;
+       
+    }
+    
+    img {
+        margin: 0 auto;
+        height: 50%;
+        width: 50%;
+        object-fit: contain;
+       }
+    
+
+
+    form input {
+        display: none;
+    }
+  }
+
+  @media screen and (max-device-width: 425px)  {
+
+    li a {
+        font-size: 1.5rem;
+    }
+
+    .r-card p {
+        font-size: 1rem;
+    }
+
+    img {
+        margin: 0 auto;
+        height: 75%;
+        width: 75%;
+        object-fit: contain;
+       }
+
+
+   
+  }
