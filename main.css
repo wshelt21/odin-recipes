@@ -73,8 +73,7 @@ li a{
 
 .r-details{
     display: flex;
-    opacity: 0;
-    z-index: -10;
+    visibility: hidden;
 }
 
 .r-details p{
@@ -82,12 +81,13 @@ li a{
 }
 
 .r-card:hover .r-details{
-    opacity: 1;
+    visibility: visible;
 }
 
 form input {
     position: absolute;
     top: 275px;
+    left: 25px;
     background-color: #3C77A3;
     padding: 9px 25px 9px 25px;
     border: none;
