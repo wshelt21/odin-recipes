@@ -17,7 +17,7 @@ This project is based on the one assigned in the Odin Project's Foundations Cour
 
  My intial process begin with a mock up design for the site created in Figma. I wanted something simple and took inspiration from local print chicken resturant ads. 
 
- ![image of original figma design](orp.png)
+ ![image of original figma design](images/orp.png)
 
 I wanted to design the layout of the site with a "mobile first" mentality and tried to begin the coding process by creating the mobile version of the site first. 
 
